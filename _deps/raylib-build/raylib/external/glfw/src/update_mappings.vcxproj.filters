@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\johnn\source\repos\raysanEncoding\CMakeFiles\e27e8d57712dcd6abfb14284c0b10cc8\update_mappings.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\johnn\source\repos\raysanEncoding\_deps\raylib-src\src\external\glfw\src\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\johnn\source\repos\raysanEncoding\_deps\raylib-src\src\external\glfw\src\mappings.h.in">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="C:\Users\johnn\source\repos\raysanEncoding\_deps\raylib-src\src\external\glfw\CMake\GenerateMappings.cmake" />
+    <None Include="C:\Users\johnn\source\repos\raysanEncoding\_deps\raylib-build\raylib\external\glfw\src\CMakeFiles\update_mappings" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{FD6953B2-0F09-3BD4-A846-3ADA6693E7C6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{256331C4-5D10-393F-BA8F-99B1F46B0E0C}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

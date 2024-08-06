@@ -1,0 +1,38 @@
+# CMake generation dependency list for this directory.
+C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeCInformation.cmake
+C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeCXXInformation.cmake
+C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake
+C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeCommonLanguageInclude.cmake
+C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDependentOption.cmake
+C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeGenericSystem.cmake
+C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeInitializeConfigs.cmake
+C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeLanguageInformation.cmake
+C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeRCInformation.cmake
+C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeSystemSpecificInformation.cmake
+C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeSystemSpecificInitialize.cmake
+C:/Program Files/CMake/share/cmake-3.26/Modules/CheckCCompilerFlag.cmake
+C:/Program Files/CMake/share/cmake-3.26/Modules/CheckCSourceCompiles.cmake
+C:/Program Files/CMake/share/cmake-3.26/Modules/Compiler/CMakeCommonCompilerMacros.cmake
+C:/Program Files/CMake/share/cmake-3.26/Modules/Compiler/MSVC-C.cmake
+C:/Program Files/CMake/share/cmake-3.26/Modules/Compiler/MSVC-CXX.cmake
+C:/Program Files/CMake/share/cmake-3.26/Modules/Compiler/MSVC.cmake
+C:/Program Files/CMake/share/cmake-3.26/Modules/Internal/CheckCompilerFlag.cmake
+C:/Program Files/CMake/share/cmake-3.26/Modules/Internal/CheckFlagCommonConfig.cmake
+C:/Program Files/CMake/share/cmake-3.26/Modules/Internal/CheckSourceCompiles.cmake
+C:/Program Files/CMake/share/cmake-3.26/Modules/Platform/Windows-MSVC-C.cmake
+C:/Program Files/CMake/share/cmake-3.26/Modules/Platform/Windows-MSVC-CXX.cmake
+C:/Program Files/CMake/share/cmake-3.26/Modules/Platform/Windows-MSVC.cmake
+C:/Program Files/CMake/share/cmake-3.26/Modules/Platform/Windows.cmake
+C:/Program Files/CMake/share/cmake-3.26/Modules/Platform/WindowsPaths.cmake
+C:/Users/johnn/source/repos/raysanEncoding/CMakeFiles/3.26.5/CMakeCCompiler.cmake
+C:/Users/johnn/source/repos/raysanEncoding/CMakeFiles/3.26.5/CMakeCXXCompiler.cmake
+C:/Users/johnn/source/repos/raysanEncoding/CMakeFiles/3.26.5/CMakeRCCompiler.cmake
+C:/Users/johnn/source/repos/raysanEncoding/CMakeFiles/3.26.5/CMakeSystem.cmake
+C:/Users/johnn/source/repos/raysanEncoding/_deps/raylib-src/CMakeLists.txt
+C:/Users/johnn/source/repos/raysanEncoding/_deps/raylib-src/CMakeOptions.txt
+C:/Users/johnn/source/repos/raysanEncoding/_deps/raylib-src/cmake/AddIfFlagCompiles.cmake
+C:/Users/johnn/source/repos/raysanEncoding/_deps/raylib-src/cmake/BuildOptions.cmake
+C:/Users/johnn/source/repos/raysanEncoding/_deps/raylib-src/cmake/CompilerFlags.cmake
+C:/Users/johnn/source/repos/raysanEncoding/_deps/raylib-src/cmake/EnumOption.cmake
+C:/Users/johnn/source/repos/raysanEncoding/_deps/raylib-src/cmake/ParseConfigHeader.cmake
+C:/Users/johnn/source/repos/raysanEncoding/_deps/raylib-src/cmake/Uninstall.cmake
