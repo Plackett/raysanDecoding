@@ -3,10 +3,9 @@
 #include <string>
 #include <fstream>
 
-static unsigned short maskBit(unsigned short value, int begin, int end)
+static unsigned short maskBit(unsigned short value, int begin)
 {
-	unsigned short mask = (1 << (end - begin)) - 1;
-	return (value >> begin) & mask;
+	return (value >> begin) & 1;
 }
 
 int main()
@@ -260,7 +259,7 @@ int main()
 						switch (selectedChannel)
 						{
 						case 0:
-							if ((char)maskBit(selectedImage[i], selectedBit, 8) == '\x1')
+							if ((char)maskBit(selectedImage[i], selectedBit) == '\x1')
 							{
 								currentWord += '1';
 							}
@@ -270,7 +269,7 @@ int main()
 							}
 							break;
 						case 1:
-							if ((char)maskBit(selectedImage[i + 1], selectedBit, 8) == '\x1')
+							if ((char)maskBit(selectedImage[i + 1], selectedBit) == '\x1')
 							{
 								currentWord += '1';
 							}
@@ -280,7 +279,7 @@ int main()
 							}
 							break;
 						default:
-							if ((char)maskBit(selectedImage[i + 2], selectedBit, 8) == '\x1')
+							if ((char)maskBit(selectedImage[i + 2], selectedBit) == '\x1')
 							{
 								currentWord += '1';
 							}
@@ -290,17 +289,18 @@ int main()
 							}
 							break;
 						}
+						if (currentWord.size() == 8)
+						{
+							message += char(std::stoi(currentWord, 0, 2));
+							currentWord = "";
+						}
 					}
 				}
 				stbi_image_free(selectedImage);
 				currentScreen++;
 				break;
 			case 6:
-				for (int i = 0; i < currentWord.size(); i += 8)
-				{
-					message += static_cast<char>(std::stoi(currentWord.substr(i,8), nullptr, 2));
-				}
-				DrawText(TextFormat("SECRET MESSAGE = %s", message), 10, 100, 50, BLACK);
+				DrawText(message.c_str(), 10, 100, 20, BLACK);
 				break;
 			}
 		EndDrawing();
